@@ -11,7 +11,7 @@ You would need to enter your initials to gauage your progress compared to others
 
 Highscores will be stored in local storage and can be cleared by clicking the clear button. 
 
-URL :
+URL : https://japjeet1975.github.io/assignment4/
 
-GIT HUB : 
+GIT HUB : https://github.com/japjeet1975/assignment4
 
