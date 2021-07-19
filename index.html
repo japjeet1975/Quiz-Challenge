@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="./style.css">
+
+
+
+	<script defer src="script.js"></script>
+	<title>Coding Quiz Challenge</title>
+</head>
+
+
+
+<body>
+ <!-- main content -->
+ <div class="container-fluid">
+
+        <!-- top for highscore link and timer -->
+        <div class="row">
+            <div class="col text-left">
+                <a href="#" id="viewHighScore">View High Scores</a>
+            </div>
+            <div id="timer" class="col text-right">
+                <i class="far fa-clock"></i> Time: <span id="timeLeft">0</span>
+            </div>
+            <div id="timesUp" class="col text-right" style="display: none;">Time's Up!</div>
+        </div>
+
+        <div id="everything" class="row text-left">
+            
+              <main >
+                  <!--start screen  -->
+                  <div id="start" class="start">
+                      <h1 >Coding Quiz Challenge</h1>
+                      <p > Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by ten seconds!</p>
+                      <button type="button" id="start-quiz-button" class="btn ">Start Quiz</button>
+                  </div>
+
+                  <!--quiz div  -->
+                  <div id="questionDiv" style="display: none;">
+                    <p id="questionTitle" ></p>
+                    <div >
+                        <p><button id="btn0" class="btn"></button></p>
+                        <p><button id="btn1" class="btn"></button></p>
+                        <p><button id="btn2" class="btn"></button></p>
+                        <p><button id="btn3" class="btn"></button></p>
+                        <hr id="lineBreak" style="display: none" class="mt-4">
+                        <p id="answerCheck" style="display: none;"></p>
+                    </div>
+                  </div>
+
+                  <!-- score div -->
+                    <div id="summary" style="display: none;">
+                            <h2 >Your final score is <span id="finalScore"></span> !</h2>
+                            <form>
+                                <p >Enter your initials: <input id="initialInput" class="form-control " type="text">
+                                <button type="submit" id="submitInitialBtn">Submit</button>
+                                </p>
+                            </form>
+                      
+                </div>
+
+                <!-- highscores section -->
+                <div id="highScoreSection"  style="display: none;">
+                    <h2 >High Scores</h2>                   
+                    
+                    <div id="listOfHighScores" ></div>
+
+                    <!-- append each highscore as new paragraph here -->
+                    <p>
+                        <button type="submit" class="btn" id="goBackBtn">Go Back</button>
+                        <button type="submit" class="btn" id="clearHighScoreBtn">Clear High Scores</button>
+                    </p>
+                    
+                </div>
+              </main>
+        
+        </div>
+    </div>	
+
+
+
+</body>
+</html>
+
+
+
+
+
+  
