@@ -11,7 +11,7 @@ You would need to enter your initials to gauage your progress compared to others
 
 Highscores will be stored in local storage and can be cleared by clicking the clear button. 
 
-URL : https://japjeet1975.github.io/assignment4/
+URL : https://github.com/japjeet1975/Quiz-Challenge
 
-GIT HUB : https://github.com/japjeet1975/assignment4
+GIT HUB : https://japjeet1975.github.io/Quiz-Challenge/
 
